@@ -1,0 +1,17 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: springgreen;
+  text-align: center;
+}
+
+.section-heading {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.app-select-btn {
+
+}
