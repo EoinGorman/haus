@@ -1,17 +1,51 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #202030;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   font-family: Helvetica;
   font-size: 100px;
   font-weight: bold;
-  color: springgreen;
+  color: #FF9000;
   text-align: center;
+
+  padding: 10% 0%;
+  width: 100%;
+  background-color: aliceblue;
 }
 
-.section-heading {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
+.app-selector {
+  /* Positioning */
+  margin: auto;
+  width: 100%;
+  padding-bottom: 10%;
 }
 
 .app-select-btn {
+  /* Positioning */
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  line-height: 250px;
+  text-align: center;
+  margin: 1% 7.5%;
 
+  /* Appearance */
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Helvetica;
+  background-color: #FF9000;
+  border-radius: 50%;
 }
