@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get '/home', to: 'users#home'
+  get '/shopping-list', to: 'users#shopping_list'
+  get '/calendar', to: 'users#calendar'
+  get '/to-do-list', to: 'users#to_do_list'
 end
