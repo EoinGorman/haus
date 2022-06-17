@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# Controller class for Users
-class UsersController < ApplicationController
+# Controller class for Accounts
+class AccountsController < ApplicationController
   def home; end
 
   def shopping_list; end

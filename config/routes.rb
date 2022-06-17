@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  get '/home', to: 'users#home'
-  get '/shopping-list', to: 'users#shopping_list'
-  get '/calendar', to: 'users#calendar'
-  get '/to-do-list', to: 'users#to_do_list'
+  get '/home', to: 'accounts#home'
+  get '/shopping-list', to: 'accounts#shopping_list'
+  get '/calendar', to: 'accounts#calendar'
+  get '/to-do-list', to: 'accounts#to_do_list'
 end
