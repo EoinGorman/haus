@@ -2,7 +2,10 @@
 
 # Controller class for Accounts
 class AccountsController < ApplicationController
-  def home; end
+  def home
+    @account = Account.find_by(id: session[:account_id])
+    render :home
+  end
 
   def shopping_list; end
 
